@@ -1,0 +1,9 @@
+[Global] Creating projects: [{"folder":"/home/sebastianr/github.com/sebastianromero/node/astro/chiletramite","configPath":"/home/sebastianr/github.com/sebastianromero/node/astro/chiletramite/tailwind.config.cjs","isUserConfigured":false,"documentSelector":[{"pattern":"/home/sebastianr/github.com/sebastianromero/node/astro/chiletramite/tailwind.config.cjs","priority":0},{"pattern":"/home/sebastianr/github.com/sebastianromero/node/astro/chiletramite/src/**/*.{astro,html,js,md,mdx,ts}","priority":1},{"pattern":"/home/sebastianr/github.com/sebastianromero/node/astro/chiletramite/**","priority":3}]}]
+[Global] Adding watch patterns: /home/sebastianr/github.com/sebastianromero/node/astro/chiletramite/tailwind.config.cjs, /home/sebastianr/github.com/sebastianromero/node/astro/chiletramite
+[tailwind.config.cjs] Initializing...
+[tailwind.config.cjs] Loaded Tailwind CSS config file: /home/sebastianr/github.com/sebastianromero/node/astro/chiletramite/tailwind.config.cjs
+[tailwind.config.cjs] Loaded postcss v8.4.38: /home/sebastianr/github.com/sebastianromero/node/astro/chiletramite/node_modules/postcss
+[tailwind.config.cjs] Loaded tailwindcss v3.3.5: /home/sebastianr/github.com/sebastianromero/node/astro/chiletramite/node_modules/tailwindcss
+[tailwind.config.cjs] Building...
+[tailwind.config.cjs] File changed: /home/sebastianr/github.com/sebastianromero/node/astro/chiletramite/package-lock.json
+[tailwind.config.cjs] Initializing...

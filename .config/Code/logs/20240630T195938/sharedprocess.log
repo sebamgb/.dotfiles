@@ -1,0 +1,41 @@
+2024-06-30 20:04:26.493 [info] Getting Manifest... akamud.vscode-javascript-snippet-pack
+2024-06-30 20:04:26.494 [info] Getting Manifest... xabikos.javascriptsnippets
+2024-06-30 20:04:26.906 [info] Installing extension: akamud.vscode-javascript-snippet-pack vscode-userdata:/home/sebastian/.vscode/extensions/extensions.json
+2024-06-30 20:04:26.910 [info] Installing extension: xabikos.javascriptsnippets vscode-userdata:/home/sebastian/.vscode/extensions/extensions.json
+2024-06-30 20:04:26.912 [info] Installing the extension without checking dependencies and pack akamud.vscode-javascript-snippet-pack
+2024-06-30 20:04:26.914 [info] Installing the extension without checking dependencies and pack xabikos.javascriptsnippets
+2024-06-30 20:04:33.374 [info] Extension signature verification result for akamud.vscode-javascript-snippet-pack: Success. Executed: true. Duration: 5347ms.
+2024-06-30 20:04:33.459 [info] Extension signature verification result for xabikos.javascriptsnippets: Success. Executed: true. Duration: 5535ms.
+2024-06-30 20:04:33.469 [info] Extracted extension to file:///home/sebastian/.vscode/extensions/akamud.vscode-javascript-snippet-pack-0.1.6: akamud.vscode-javascript-snippet-pack
+2024-06-30 20:04:33.492 [info] Renamed to /home/sebastian/.vscode/extensions/akamud.vscode-javascript-snippet-pack-0.1.6
+2024-06-30 20:04:33.526 [info] Extracted extension to file:///home/sebastian/.vscode/extensions/xabikos.javascriptsnippets-1.8.0: xabikos.javascriptsnippets
+2024-06-30 20:04:33.576 [info] Renamed to /home/sebastian/.vscode/extensions/xabikos.javascriptsnippets-1.8.0
+2024-06-30 20:04:33.701 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sebastian/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sebastian/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-30 20:04:33.984 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sebastian/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sebastian/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-30 20:04:34.081 [info] Extension installed successfully: akamud.vscode-javascript-snippet-pack vscode-userdata:/home/sebastian/.vscode/extensions/extensions.json
+2024-06-30 20:04:34.083 [info] Extension installed successfully: xabikos.javascriptsnippets vscode-userdata:/home/sebastian/.vscode/extensions/extensions.json
+2024-06-30 20:26:17.498 [info] Getting Manifest... dracula-theme.theme-dracula
+2024-06-30 20:26:17.552 [info] Installing extension: dracula-theme.theme-dracula vscode-userdata:/home/sebastian/.vscode/extensions/extensions.json
+2024-06-30 20:26:25.578 [info] Extension signature verification result for dracula-theme.theme-dracula: Success. Executed: true. Duration: 5900ms.
+2024-06-30 20:26:25.712 [info] Extracted extension to file:///home/sebastian/.vscode/extensions/dracula-theme.theme-dracula-2.24.3: dracula-theme.theme-dracula
+2024-06-30 20:26:25.742 [info] Renamed to /home/sebastian/.vscode/extensions/dracula-theme.theme-dracula-2.24.3
+2024-06-30 20:26:25.832 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sebastian/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sebastian/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-30 20:26:26.525 [info] Extension installed successfully: dracula-theme.theme-dracula vscode-userdata:/home/sebastian/.vscode/extensions/extensions.json

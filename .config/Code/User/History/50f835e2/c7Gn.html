@@ -1,0 +1,44 @@
+<div class="container-fluid bg-success">
+    <div class="container">
+        <div class="d-flex justify-content-end ">
+            <div class="row">
+                <div class="col text-white">
+                    <div class="d-flex align-items-center">
+                        {{- partial "blocks/menu-social" (dict "classWrapperIcon"
+                        "icon-link icon-link-hover mx-2 fs-sm text-decoration-none icon-link-left text-white"
+                        "em" .8) -}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{- partial "nav" (dict "menuID" "main" "page" .) -}}
+<footer>
+    <nav aria-label="breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb">
+                {{- define "partials/inline/breadcrumb" -}}
+                {{- with .Parent -}}
+                {{- partial "inline/breadcrumb" . -}}
+                <li class="breadcrumb-item"><a href="{{.RelPermalink}}">
+                        {{- with .Params.breadcrumb -}}
+                        {{- . | humanize | title -}}
+                        {{- else -}}
+                        {{- .Title | humanize | title -}}
+                        {{- end -}}
+                    </a></li>
+                {{- end -}}
+                {{- end -}}
+                {{- partial "inline/breadcrumb" . -}}
+                <li class="breadcrumb-item active" aria-current="page">
+                    {{- with .Params.breadcrumb -}}
+                    {{- . | humanize | title -}}
+                    {{- else -}}
+                    {{- .Title | humanize | title -}}
+                    {{- end -}}
+                </li>
+            </ol>
+        </div>
+    </nav>
+</footer>

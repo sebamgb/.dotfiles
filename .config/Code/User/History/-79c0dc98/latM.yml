@@ -1,0 +1,6 @@
+# npx netlify-cms-proxy-server
+local_backend: true
+
+services:
+  googleAnalytics:
+    googleAnalytics: G-DDDDDDDDDD 

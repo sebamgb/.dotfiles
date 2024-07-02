@@ -1,0 +1,9 @@
+[submodule "powerlevel10k"]
+	path = powerlevel10k
+	url = git@github.com:romkatv/powerlevel10k.git
+[submodule "alacritty"]
+	path = alacritty
+	url = git@github.com:alacritty/alacritty.git
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = git@github.com:NvChad/starter.git

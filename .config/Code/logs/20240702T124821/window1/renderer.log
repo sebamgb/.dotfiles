@@ -1,0 +1,5 @@
+2024-07-02 12:48:25.489 [info] Started local extension host with pid 4676.
+2024-07-02 12:48:36.922 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2024-07-02 12:48:42.903 [info] [perf] Render performance baseline is 478ms
+2024-07-02 13:20:44.019 [info] Settings Sync: Updating due to change in sessions
+2024-07-02 13:20:44.037 [info] Settings Sync: Updating due to change in sessions

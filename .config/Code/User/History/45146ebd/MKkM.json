@@ -1,0 +1,38 @@
+{
+  "name": "course-seo-intro",
+  "version": "1.0.0",
+  "description": "Online course - seo and hugo implementation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --gc",
+    "dev:preview": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --gc --buildDrafts --buildFuture",
+    "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify --cleanDestinationDir",
+    "renderToDisk:dev": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --renderToDisk --cleanDestinationDir",
+    "renderToDisk:preview": "exec-bin node_modules/.bin/hugo/hugo server --renderToDisk --cleanDestinationDir --disableFastRender --buildDrafts --buildFuture ",
+    "renderToDisk:production": "exec-bin node_modules/.bin/hugo/hugo server --renderToDisk --cleanDestinationDir --disableFastRender --gc --minify --environment production",
+    "npm-check": "npx npm-check -u",
+    "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
+    "service": "exec-bin node_modules/.bin/hugo/hugo new Servicios/${SERVICE}.md",
+    "single": "exec-bin node_modules/.bin/hugo/hugo new ${page}/index.md",
+    "list": "exec-bin node_modules/.bin/hugo/hugo new ${page}/_index.md"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.16",
+    "bootstrap": "^5.3.2",
+    "exec-bin": "^1.0.0",
+    "hugo-installer": "^4.0.1",
+    "masonry-layout": "^4.2.2",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0"
+  },
+  "otherDependencies": {
+    "hugo": "0.121.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/future-wd/course-hugo-seo"
+  },
+  "author": "Sean Emerson",
+  "license": "ISC"
+}

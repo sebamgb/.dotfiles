@@ -1,0 +1,10 @@
+2024-06-03 14:03:08.067 [info] Revived process, old id 9c51015dcf401b6fe55126c3146db0d7-1 -> new id 1
+2024-06-03 14:03:08.100 [info] Revived process, old id 9c51015dcf401b6fe55126c3146db0d7-2 -> new id 2
+2024-06-03 14:03:16.060 [info] Expanding terminal instance, old id 9c51015dcf401b6fe55126c3146db0d7-1 -> new id 1
+2024-06-03 14:03:16.060 [info] Expanding terminal instance, old id 9c51015dcf401b6fe55126c3146db0d7-2 -> new id 2
+2024-06-03 14:03:37.699 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2024-06-03 14:03:37.700 [info] Persistent process reconnection "1"
+2024-06-03 14:03:37.709 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2024-06-03 14:03:37.709 [info] Persistent process reconnection "2"
+2024-06-03 14:03:39.516 [info] Persistent process "1": Replaying 7224 chars and 1 size events
+2024-06-03 14:03:40.139 [info] Persistent process "2": Replaying 8587 chars and 1 size events

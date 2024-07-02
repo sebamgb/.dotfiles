@@ -1,0 +1,25 @@
+2024-07-01 19:09:32.952 [info] Started local extension host with pid 19462.
+2024-07-01 19:09:44.699 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2024-07-01 19:09:46.946 [info] Extension host (LocalProcess pid: 19462) is unresponsive.
+2024-07-01 19:09:47.689 [info] Extension host (LocalProcess pid: 19462) is responsive.
+2024-07-01 19:09:48.760 [info] [perf] Render performance baseline is 228ms
+2024-07-01 19:12:05.498 [error] Unable to read file '/home/sebastian/.dotfiles/.zshrc' (Error: File not modified since): Error: Unable to read file '/home/sebastian/.dotfiles/.zshrc' (Error: File not modified since)
+    at o.F (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:657:19291)
+    at o.D (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:657:19179)
+    at async d.M (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2202:35250)
+    at async d.readStream (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2202:35007)
+    at async L.Cb (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2191:11348)
+    at async L.resolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2191:9760)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2202:31053
+2024-07-01 19:41:30.571 [info] Extension host (LocalProcess pid: 19462) is unresponsive.
+2024-07-01 19:41:31.541 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-07-01 19:41:33.058 [info] Extension host (LocalProcess pid: 19462) is responsive.
+2024-07-01 19:41:33.061 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-07-01 20:33:50.984 [info] Extension host (LocalProcess pid: 19462) is unresponsive.
+2024-07-01 20:33:51.623 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-07-01 20:33:52.423 [info] Extension host (LocalProcess pid: 19462) is responsive.
+2024-07-01 20:33:52.426 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-07-01 20:33:58.552 [info] Extension host (LocalProcess pid: 19462) is unresponsive.
+2024-07-01 20:33:58.564 [info] Extension host (LocalProcess pid: 19462) is responsive.
+2024-07-01 20:33:58.567 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-07-01 20:33:59.151 [info] UNRESPONSIVE extension host: starting to profile NOW

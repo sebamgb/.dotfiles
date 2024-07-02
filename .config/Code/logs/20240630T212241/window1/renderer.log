@@ -1,0 +1,5 @@
+2024-06-30 21:22:45.773 [info] Started local extension host with pid 25523.
+2024-06-30 21:22:58.646 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2024-06-30 21:22:59.440 [info] Extension host (LocalProcess pid: 25523) is unresponsive.
+2024-06-30 21:22:59.788 [info] Extension host (LocalProcess pid: 25523) is responsive.
+2024-06-30 21:23:05.619 [info] [perf] Render performance baseline is 339ms

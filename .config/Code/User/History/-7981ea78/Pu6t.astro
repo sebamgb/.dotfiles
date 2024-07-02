@@ -1,0 +1,11 @@
+---
+import { siteConfig } from '@/data/site.config'
+import TwitterColorIcon from './icons/TwitterColorIcon.astro'
+import LinkedinIcon from './icons/linkedinIcon.astro'
+const message = siteConfig.shareMessage
+
+const URL = Astro.url.href
+---
+
+<div class="sharethis-sticky-share-buttons"></div>
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=64810c0c8bdd800012e15f17&product=sticky-share-buttons' async='async'></script>

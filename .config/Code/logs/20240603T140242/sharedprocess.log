@@ -1,0 +1,31 @@
+2024-06-03 14:04:17.822 [info] Deleted uninstalled extension from disk christian-kohler.path-intellisense /home/sebastianr/.vscode/extensions/christian-kohler.path-intellisense-2.8.5
+2024-06-03 14:04:41.482 [info] Getting Manifest... golang.go-nightly
+2024-06-03 14:04:41.512 [info] Getting Manifest... rust-lang.rust-analyzer
+2024-06-03 14:04:42.972 [info] Installing extension: golang.go-nightly
+2024-06-03 14:04:43.003 [info] Installing extension: rust-lang.rust-analyzer
+2024-06-03 14:05:45.304 [info] Extension signature verification result for rust-lang.rust-analyzer: Success. Duration: 23250ms.
+2024-06-03 14:05:45.562 [info] Extension signature verification result for golang.go-nightly: Success. Duration: 23828ms.
+2024-06-03 14:05:48.133 [info] Extracted extension to file:///home/sebastianr/.vscode/extensions/golang.go-nightly-2024.5.3021: golang.go-nightly
+2024-06-03 14:05:48.229 [info] Renamed to /home/sebastianr/.vscode/extensions/golang.go-nightly-2024.5.3021
+2024-06-03 14:05:48.252 [info] Extracting extension completed. golang.go-nightly
+2024-06-03 14:05:48.501 [info] Extension installed successfully: golang.go-nightly
+2024-06-03 14:05:48.614 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sebastianr/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sebastianr/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-03 14:05:48.849 [info] Marked extension as uninstalled golang.go-nightly-2024.5.2919
+2024-06-03 14:05:55.307 [info] Extracted extension to file:///home/sebastianr/.vscode/extensions/rust-lang.rust-analyzer-0.4.1982-linux-x64: rust-lang.rust-analyzer
+2024-06-03 14:05:55.330 [info] Renamed to /home/sebastianr/.vscode/extensions/rust-lang.rust-analyzer-0.4.1982-linux-x64
+2024-06-03 14:05:55.344 [info] Extracting extension completed. rust-lang.rust-analyzer
+2024-06-03 14:05:55.500 [info] Extension installed successfully: rust-lang.rust-analyzer
+2024-06-03 14:05:55.583 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sebastianr/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sebastianr/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-03 14:05:55.727 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.4.1981-linux-x64

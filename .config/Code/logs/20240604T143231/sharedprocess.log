@@ -1,0 +1,17 @@
+2024-06-04 14:32:49.886 [info] Deleted uninstalled extension from disk golang.go-nightly /home/sebastianr/.vscode/extensions/golang.go-nightly-2024.5.2919
+2024-06-04 14:32:50.700 [info] Deleted uninstalled extension from disk rust-lang.rust-analyzer /home/sebastianr/.vscode/extensions/rust-lang.rust-analyzer-0.4.1981-linux-x64
+2024-06-04 14:33:08.245 [info] Getting Manifest... rust-lang.rust-analyzer
+2024-06-04 14:33:08.787 [info] Installing extension: rust-lang.rust-analyzer
+2024-06-04 14:33:58.865 [info] Extension signature verification result for rust-lang.rust-analyzer: Success. Duration: 21096ms.
+2024-06-04 14:34:16.952 [info] Extracted extension to file:///home/sebastianr/.vscode/extensions/rust-lang.rust-analyzer-0.4.1984-linux-x64: rust-lang.rust-analyzer
+2024-06-04 14:34:17.081 [info] Renamed to /home/sebastianr/.vscode/extensions/rust-lang.rust-analyzer-0.4.1984-linux-x64
+2024-06-04 14:34:17.136 [info] Extracting extension completed. rust-lang.rust-analyzer
+2024-06-04 14:34:17.324 [info] Extension installed successfully: rust-lang.rust-analyzer
+2024-06-04 14:34:17.363 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sebastianr/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sebastianr/.vscode/extensions/extensions.json.vsctmp'
+    at a.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30019)
+    at b (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30130)
+    at t.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36600)
+    at t.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29040)
+    at async $.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16186)
+    at async J.sb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109501)
+2024-06-04 14:34:17.477 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.4.1982-linux-x64

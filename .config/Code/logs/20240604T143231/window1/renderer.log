@@ -1,0 +1,135 @@
+2024-06-04 14:32:38.992 [info] Started local extension host with pid 8029.
+2024-06-04 14:32:51.940 [warning] [golang.go-nightly]: Cannot register 'go.showWelcome'. This property is already registered.
+2024-06-04 14:32:51.941 [warning] [golang.go-nightly]: Cannot register 'go.buildOnSave'. This property is already registered.
+2024-06-04 14:32:51.944 [warning] [golang.go-nightly]: Cannot register 'go.buildFlags'. This property is already registered.
+2024-06-04 14:32:51.946 [warning] [golang.go-nightly]: Cannot register 'go.buildTags'. This property is already registered.
+2024-06-04 14:32:51.949 [warning] [golang.go-nightly]: Cannot register 'go.testTags'. This property is already registered.
+2024-06-04 14:32:51.952 [warning] [golang.go-nightly]: Cannot register 'go.disableConcurrentTests'. This property is already registered.
+2024-06-04 14:32:51.957 [warning] [golang.go-nightly]: Cannot register 'go.installDependenciesWhenBuilding'. This property is already registered.
+2024-06-04 14:32:51.963 [warning] [golang.go-nightly]: Cannot register 'go.lintOnSave'. This property is already registered.
+2024-06-04 14:32:51.968 [warning] [golang.go-nightly]: Cannot register 'go.lintTool'. This property is already registered.
+2024-06-04 14:32:51.977 [warning] [golang.go-nightly]: Cannot register 'go.lintFlags'. This property is already registered.
+2024-06-04 14:32:51.980 [warning] [golang.go-nightly]: Cannot register 'go.vetOnSave'. This property is already registered.
+2024-06-04 14:32:51.982 [warning] [golang.go-nightly]: Cannot register 'go.vetFlags'. This property is already registered.
+2024-06-04 14:32:51.983 [warning] [golang.go-nightly]: Cannot register 'go.formatTool'. This property is already registered.
+2024-06-04 14:32:51.986 [warning] [golang.go-nightly]: Cannot register 'go.formatFlags'. This property is already registered.
+2024-06-04 14:32:51.992 [warning] [golang.go-nightly]: Cannot register 'go.inferGopath'. This property is already registered.
+2024-06-04 14:32:51.997 [warning] [golang.go-nightly]: Cannot register 'go.gopath'. This property is already registered.
+2024-06-04 14:32:51.999 [warning] [golang.go-nightly]: Cannot register 'go.toolsGopath'. This property is already registered.
+2024-06-04 14:32:52.001 [warning] [golang.go-nightly]: Cannot register 'go.goroot'. This property is already registered.
+2024-06-04 14:32:52.002 [warning] [golang.go-nightly]: Cannot register 'go.testOnSave'. This property is already registered.
+2024-06-04 14:32:52.007 [warning] [golang.go-nightly]: Cannot register 'go.coverOnSave'. This property is already registered.
+2024-06-04 14:32:52.013 [warning] [golang.go-nightly]: Cannot register 'go.coverOnTestPackage'. This property is already registered.
+2024-06-04 14:32:52.014 [warning] [golang.go-nightly]: Cannot register 'go.coverOnSingleTest'. This property is already registered.
+2024-06-04 14:32:52.015 [warning] [golang.go-nightly]: Cannot register 'go.coverOnSingleTestFile'. This property is already registered.
+2024-06-04 14:32:52.018 [warning] [golang.go-nightly]: Cannot register 'go.coverMode'. This property is already registered.
+2024-06-04 14:32:52.019 [warning] [golang.go-nightly]: Cannot register 'go.coverShowCounts'. This property is already registered.
+2024-06-04 14:32:52.027 [warning] [golang.go-nightly]: Cannot register 'go.coverageOptions'. This property is already registered.
+2024-06-04 14:32:52.032 [warning] [golang.go-nightly]: Cannot register 'go.coverageDecorator'. This property is already registered.
+2024-06-04 14:32:52.039 [warning] [golang.go-nightly]: Cannot register 'go.testTimeout'. This property is already registered.
+2024-06-04 14:32:52.045 [warning] [golang.go-nightly]: Cannot register 'go.testEnvVars'. This property is already registered.
+2024-06-04 14:32:52.047 [warning] [golang.go-nightly]: Cannot register 'go.testEnvFile'. This property is already registered.
+2024-06-04 14:32:52.049 [warning] [golang.go-nightly]: Cannot register 'go.testFlags'. This property is already registered.
+2024-06-04 14:32:52.049 [warning] [golang.go-nightly]: Cannot register 'go.testExplorer.enable'. This property is already registered.
+2024-06-04 14:32:52.057 [warning] [golang.go-nightly]: Cannot register 'go.testExplorer.packageDisplayMode'. This property is already registered.
+2024-06-04 14:32:52.062 [warning] [golang.go-nightly]: Cannot register 'go.testExplorer.alwaysRunBenchmarks'. This property is already registered.
+2024-06-04 14:32:52.063 [warning] [golang.go-nightly]: Cannot register 'go.testExplorer.concatenateMessages'. This property is already registered.
+2024-06-04 14:32:52.065 [warning] [golang.go-nightly]: Cannot register 'go.testExplorer.showDynamicSubtestsInEditor'. This property is already registered.
+2024-06-04 14:32:52.066 [warning] [golang.go-nightly]: Cannot register 'go.testExplorer.showOutput'. This property is already registered.
+2024-06-04 14:32:52.066 [warning] [golang.go-nightly]: Cannot register 'go.generateTestsFlags'. This property is already registered.
+2024-06-04 14:32:52.067 [warning] [golang.go-nightly]: Cannot register 'go.toolsEnvVars'. This property is already registered.
+2024-06-04 14:32:52.071 [warning] [golang.go-nightly]: Cannot register 'go.useLanguageServer'. This property is already registered.
+2024-06-04 14:32:52.073 [warning] [golang.go-nightly]: Cannot register 'go.languageServerFlags'. This property is already registered.
+2024-06-04 14:32:52.080 [warning] [golang.go-nightly]: Cannot register 'go.trace.server'. This property is already registered.
+2024-06-04 14:32:52.081 [warning] [golang.go-nightly]: Cannot register 'go.logging.level'. This property is already registered.
+2024-06-04 14:32:52.085 [warning] [golang.go-nightly]: Cannot register 'go.toolsManagement.go'. This property is already registered.
+2024-06-04 14:32:52.086 [warning] [golang.go-nightly]: Cannot register 'go.toolsManagement.checkForUpdates'. This property is already registered.
+2024-06-04 14:32:52.086 [warning] [golang.go-nightly]: Cannot register 'go.toolsManagement.autoUpdate'. This property is already registered.
+2024-06-04 14:32:52.087 [warning] [golang.go-nightly]: Cannot register 'go.enableCodeLens'. This property is already registered.
+2024-06-04 14:32:52.103 [warning] [golang.go-nightly]: Cannot register 'go.addTags'. This property is already registered.
+2024-06-04 14:32:52.104 [warning] [golang.go-nightly]: Cannot register 'go.removeTags'. This property is already registered.
+2024-06-04 14:32:52.105 [warning] [golang.go-nightly]: Cannot register 'go.playground'. This property is already registered.
+2024-06-04 14:32:52.105 [warning] [golang.go-nightly]: Cannot register 'go.survey.prompt'. This property is already registered.
+2024-06-04 14:32:52.106 [warning] [golang.go-nightly]: Cannot register 'go.editorContextMenuCommands'. This property is already registered.
+2024-06-04 14:32:52.107 [warning] [golang.go-nightly]: Cannot register 'go.delveConfig'. This property is already registered.
+2024-06-04 14:32:52.113 [warning] [golang.go-nightly]: Cannot register 'go.alternateTools'. This property is already registered.
+2024-06-04 14:32:52.115 [warning] [golang.go-nightly]: Cannot register 'go.tasks.provideDefault'. This property is already registered.
+2024-06-04 14:32:52.116 [warning] [golang.go-nightly]: Cannot register 'go.terminal.activateEnvironment'. This property is already registered.
+2024-06-04 14:32:52.117 [warning] [golang.go-nightly]: Cannot register 'gopls'. This property is already registered.
+2024-06-04 14:32:52.118 [warning] [golang.go-nightly]: Cannot register 'go.diagnostic.vulncheck'. This property is already registered.
+2024-06-04 14:32:52.120 [warning] [golang.go-nightly]: Cannot register 'go.inlayHints.assignVariableTypes'. This property is already registered.
+2024-06-04 14:32:52.121 [warning] [golang.go-nightly]: Cannot register 'go.inlayHints.compositeLiteralFields'. This property is already registered.
+2024-06-04 14:32:52.122 [warning] [golang.go-nightly]: Cannot register 'go.inlayHints.compositeLiteralTypes'. This property is already registered.
+2024-06-04 14:32:52.123 [warning] [golang.go-nightly]: Cannot register 'go.inlayHints.constantValues'. This property is already registered.
+2024-06-04 14:32:52.124 [warning] [golang.go-nightly]: Cannot register 'go.inlayHints.functionTypeParameters'. This property is already registered.
+2024-06-04 14:32:52.125 [warning] [golang.go-nightly]: Cannot register 'go.inlayHints.parameterNames'. This property is already registered.
+2024-06-04 14:32:52.130 [warning] [golang.go-nightly]: Cannot register 'go.inlayHints.rangeVariableTypes'. This property is already registered.
+2024-06-04 14:32:52.304 [info] [golang.go-nightly]: Command `go.gopath` already registered by Go (golang.go)
+2024-06-04 14:32:52.305 [info] [golang.go-nightly]: Command `go.goroot` already registered by Go (golang.go)
+2024-06-04 14:32:52.306 [info] [golang.go-nightly]: Command `go.locate.tools` already registered by Go (golang.go)
+2024-06-04 14:32:52.310 [info] [golang.go-nightly]: Command `go.test.cursor` already registered by Go (golang.go)
+2024-06-04 14:32:52.312 [info] [golang.go-nightly]: Command `go.test.cursorOrPrevious` already registered by Go (golang.go)
+2024-06-04 14:32:52.313 [info] [golang.go-nightly]: Command `go.subtest.cursor` already registered by Go (golang.go)
+2024-06-04 14:32:52.314 [info] [golang.go-nightly]: Command `go.debug.subtest.cursor` already registered by Go (golang.go)
+2024-06-04 14:32:52.315 [info] [golang.go-nightly]: Command `go.benchmark.cursor` already registered by Go (golang.go)
+2024-06-04 14:32:52.316 [info] [golang.go-nightly]: Command `go.debug.cursor` already registered by Go (golang.go)
+2024-06-04 14:32:52.324 [info] [golang.go-nightly]: Command `go.test.file` already registered by Go (golang.go)
+2024-06-04 14:32:52.326 [info] [golang.go-nightly]: Command `go.test.package` already registered by Go (golang.go)
+2024-06-04 14:32:52.329 [info] [golang.go-nightly]: Command `go.debug.toggleHideSystemGoroutines` already registered by Go (golang.go)
+2024-06-04 14:32:52.332 [info] [golang.go-nightly]: Command `go.test.refresh` already registered by Go (golang.go)
+2024-06-04 14:32:52.333 [info] [golang.go-nightly]: Command `go.test.showProfiles` already registered by Go (golang.go)
+2024-06-04 14:32:52.334 [info] [golang.go-nightly]: Command `go.test.captureProfile` already registered by Go (golang.go)
+2024-06-04 14:32:52.335 [info] [golang.go-nightly]: Command `go.test.deleteProfile` already registered by Go (golang.go)
+2024-06-04 14:32:52.340 [info] [golang.go-nightly]: Command `go.test.showProfileFile` already registered by Go (golang.go)
+2024-06-04 14:32:52.342 [info] [golang.go-nightly]: Command `go.benchmark.package` already registered by Go (golang.go)
+2024-06-04 14:32:52.344 [info] [golang.go-nightly]: Command `go.benchmark.file` already registered by Go (golang.go)
+2024-06-04 14:32:52.345 [info] [golang.go-nightly]: Command `go.test.workspace` already registered by Go (golang.go)
+2024-06-04 14:32:52.346 [info] [golang.go-nightly]: Command `go.test.previous` already registered by Go (golang.go)
+2024-06-04 14:32:52.347 [info] [golang.go-nightly]: Command `go.debug.previous` already registered by Go (golang.go)
+2024-06-04 14:32:52.348 [info] [golang.go-nightly]: Command `go.test.coverage` already registered by Go (golang.go)
+2024-06-04 14:32:52.349 [info] [golang.go-nightly]: Command `go.test.generate.package` already registered by Go (golang.go)
+2024-06-04 14:32:52.350 [info] [golang.go-nightly]: Command `go.test.generate.file` already registered by Go (golang.go)
+2024-06-04 14:32:52.351 [info] [golang.go-nightly]: Command `go.test.generate.function` already registered by Go (golang.go)
+2024-06-04 14:32:52.358 [info] [golang.go-nightly]: Command `go.impl.cursor` already registered by Go (golang.go)
+2024-06-04 14:32:52.360 [info] [golang.go-nightly]: Command `go.extractServerChannel` already registered by Go (golang.go)
+2024-06-04 14:32:52.361 [info] [golang.go-nightly]: Command `go.welcome` already registered by Go (golang.go)
+2024-06-04 14:32:52.362 [info] [golang.go-nightly]: Command `go.toggle.gc_details` already registered by Go (golang.go)
+2024-06-04 14:32:52.365 [info] [golang.go-nightly]: Command `go.import.add` already registered by Go (golang.go)
+2024-06-04 14:32:52.366 [info] [golang.go-nightly]: Command `go.add.package.workspace` already registered by Go (golang.go)
+2024-06-04 14:32:52.368 [info] [golang.go-nightly]: Command `go.tools.install` already registered by Go (golang.go)
+2024-06-04 14:32:52.373 [info] [golang.go-nightly]: Command `go.toggle.test.file` already registered by Go (golang.go)
+2024-06-04 14:32:52.374 [info] [golang.go-nightly]: Command `go.vulncheck.toggle` already registered by Go (golang.go)
+2024-06-04 14:32:52.375 [info] [golang.go-nightly]: Command `go.languageserver.maintain` already registered by Go (golang.go)
+2024-06-04 14:32:52.378 [info] [golang.go-nightly]: Command `go.add.tags` already registered by Go (golang.go)
+2024-06-04 14:32:52.379 [info] [golang.go-nightly]: Command `go.remove.tags` already registered by Go (golang.go)
+2024-06-04 14:32:52.380 [info] [golang.go-nightly]: Command `go.show.commands` already registered by Go (golang.go)
+2024-06-04 14:32:52.382 [info] [golang.go-nightly]: Command `go.browse.packages` already registered by Go (golang.go)
+2024-06-04 14:32:52.383 [info] [golang.go-nightly]: Command `go.get.package` already registered by Go (golang.go)
+2024-06-04 14:32:52.384 [info] [golang.go-nightly]: Command `go.playground` already registered by Go (golang.go)
+2024-06-04 14:32:52.385 [info] [golang.go-nightly]: Command `go.lint.package` already registered by Go (golang.go)
+2024-06-04 14:32:52.390 [info] [golang.go-nightly]: Command `go.lint.workspace` already registered by Go (golang.go)
+2024-06-04 14:32:52.391 [info] [golang.go-nightly]: Command `go.vet.package` already registered by Go (golang.go)
+2024-06-04 14:32:52.392 [info] [golang.go-nightly]: Command `go.vet.workspace` already registered by Go (golang.go)
+2024-06-04 14:32:52.393 [info] [golang.go-nightly]: Command `go.build.package` already registered by Go (golang.go)
+2024-06-04 14:32:52.393 [info] [golang.go-nightly]: Command `go.build.workspace` already registered by Go (golang.go)
+2024-06-04 14:32:52.394 [info] [golang.go-nightly]: Command `go.install.package` already registered by Go (golang.go)
+2024-06-04 14:32:52.395 [info] [golang.go-nightly]: Command `go.run.modinit` already registered by Go (golang.go)
+2024-06-04 14:32:52.397 [info] [golang.go-nightly]: Command `go.test.cancel` already registered by Go (golang.go)
+2024-06-04 14:32:52.397 [info] [golang.go-nightly]: Command `go.apply.coverprofile` already registered by Go (golang.go)
+2024-06-04 14:32:52.398 [info] [golang.go-nightly]: Command `go.languageserver.restart` already registered by Go (golang.go)
+2024-06-04 14:32:52.399 [info] [golang.go-nightly]: Command `go.environment.choose` already registered by Go (golang.go)
+2024-06-04 14:32:52.400 [info] [golang.go-nightly]: Command `go.survey.showConfig` already registered by Go (golang.go)
+2024-06-04 14:32:52.401 [info] [golang.go-nightly]: Command `go.survey.resetConfig` already registered by Go (golang.go)
+2024-06-04 14:32:52.405 [info] [golang.go-nightly]: Command `go.workspace.resetState` already registered by Go (golang.go)
+2024-06-04 14:32:52.406 [info] [golang.go-nightly]: Command `go.global.resetState` already registered by Go (golang.go)
+2024-06-04 14:32:52.407 [info] [golang.go-nightly]: Command `go.explorer.refresh` already registered by Go (golang.go)
+2024-06-04 14:32:52.408 [info] [golang.go-nightly]: Command `go.explorer.open` already registered by Go (golang.go)
+2024-06-04 14:32:52.409 [info] [golang.go-nightly]: Command `go.workspace.editEnv` already registered by Go (golang.go)
+2024-06-04 14:32:52.410 [info] [golang.go-nightly]: Command `go.workspace.resetEnv` already registered by Go (golang.go)
+2024-06-04 14:32:52.967 [error] [golang.go-nightly]: Cannot register multiple views with same id `go.explorer`
+2024-06-04 14:32:52.970 [error] [golang.go-nightly]: Cannot register multiple views with same id `go.test.profile`
+2024-06-04 14:33:03.004 [info] Extension host (LocalProcess pid: 8029) is unresponsive.
+2024-06-04 14:33:04.836 [info] Extension host (LocalProcess pid: 8029) is responsive.
+2024-06-04 14:33:11.036 [info] Extension host (LocalProcess pid: 8029) is unresponsive.
+2024-06-04 14:33:11.359 [info] Extension host (LocalProcess pid: 8029) is responsive.
+2024-06-04 14:34:04.818 [info] [perf] Render performance baseline is 696ms

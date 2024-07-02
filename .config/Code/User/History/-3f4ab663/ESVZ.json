@@ -1,0 +1,36 @@
+{
+    "terminal.integrated.fontFamily": "mesloLGS NF",
+    "git.autofetch": true,
+    "go.toolsManagement.autoUpdate": true,
+    "window.autoDetectColorScheme": true,
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "'mesloLGS NF Regular'",
+    "mssql.connections": [
+        {
+            "server": "localhost,1433",
+            "database": "master",
+            "authenticationType": "SqlLogin",
+            "user": "sa",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": false,
+            "encrypt": "Mandatory",
+            "trustServerCertificate": true,
+            "connectTimeout": 15,
+            "applicationName": "vscode-mssql",
+            "commandTimeout": 30
+        }
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "sqltools.connections": [],
+    "files.associations": {
+        "*.html": "html"
+    },
+    "emmet.excludeLanguages": [],
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    "emmet.triggerExpansionOnTab": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    }
+}

@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=sebamgb@gmail.com
+Enabled=true
+Parent=437f197f5e1f753850e97b09a143b8dd40ca9024
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=74c4bfc47eb1bdfeee9b36def7c2906bd12f6232
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://213572620a6c493bea139e68e995ff48066d618e/%5bGmail%5d/Borradores
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=sebamgb@gmail.com
+Aliases=
+Name=sebastianr
+Organization=
+ReplyTo=
+SignatureUid=none

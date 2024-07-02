@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html class="no-js" dir="ltr" data-bs-theme="auto">
+
+<head>
+  {{- partial "head" . -}}
+</head>
+
+<body>
+  {{- .Render "gtm" -}}
+  <header>
+    {{- partial "header" . -}}
+  </header>
+  <main>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-9 mb-3">
+            {{- block "main" . -}}{{- end -}}
+          </div>
+          <div class="col-md-3 mb-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, dignissimos. Voluptatem eligendi, tenetur ullam sunt iste veniam facere inventore sint quos cumque maiores ipsum unde laborum laboriosam ratione modi eos.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    {{- partial "footer" . -}}
+  </footer>
+  {{- block "cookie" . -}}{{- end -}}
+  {{- partial "scriptFooter" . -}}
+</body>
+
+</html>

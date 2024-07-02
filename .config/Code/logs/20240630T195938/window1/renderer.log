@@ -1,0 +1,17 @@
+2024-06-30 19:59:43.392 [info] Started local extension host with pid 16939.
+2024-06-30 19:59:52.858 [info] Extension host (LocalProcess pid: 16939) is unresponsive.
+2024-06-30 19:59:54.243 [info] Extension host (LocalProcess pid: 16939) is responsive.
+2024-06-30 19:59:57.718 [info] [perf] Render performance baseline is 384ms
+2024-06-30 20:00:00.036 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/sebastian/.dotfiles/.config/Code/logs/20240504T153624/window1/exthost/output_logging_20240504T153633' failed: No such file or directory (EUNKNOWN) (path: /home/sebastian/.dotfiles)
+2024-06-30 20:00:00.044 [error] [File Watcher (universal)] restarting watcher from error in watch request (retrying request): inotify_add_watch on '/home/sebastian/.dotfiles/.config/Code/logs/20240504T153624/window1/exthost/output_logging_20240504T153633' failed: No such file or directory ({"path":"/home/sebastian/.dotfiles","excludes":["**/.git/objects/**","**/.git/subtree-cache/**","**/node_modules/*/**","**/.hg/store/**"],"recursive":true})
+2024-06-30 20:04:21.319 [info] Settings Sync: Updating due to change in sessions
+2024-06-30 20:04:21.322 [info] Settings Sync: Updated current session e50ab4dbd3d2da36
+2024-06-30 20:04:34.143 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2024-06-30 20:24:00.001 [info] Extension host (LocalProcess pid: 16939) is unresponsive.
+2024-06-30 20:24:00.216 [info] Extension host (LocalProcess pid: 16939) is responsive.
+2024-06-30 20:24:00.223 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-06-30 20:24:02.222 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-06-30 20:26:24.972 [info] Extension host (LocalProcess pid: 16939) is unresponsive.
+2024-06-30 20:26:25.949 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-06-30 20:26:26.295 [info] Extension host (LocalProcess pid: 16939) is responsive.
+2024-06-30 20:26:26.296 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session

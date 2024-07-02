@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html class="no-js" dir="ltr" data-bs-theme="auto">
+
+<head>
+  {{- partial "head" . -}}
+  {{- .Render "json-LD" -}}
+</head>
+
+<body>
+  {{- .Render "gtm" -}}
+  <header>
+    {{- partial "header" . -}}
+  </header>
+  <main>
+    {{- block "main" . -}}{{- end -}}
+  </main>
+  <footer>
+    {{- partial "footer" . -}}
+  </footer>
+  {{- block "cookie" . -}}{{- end -}}
+  {{- partial "scriptFooter" . -}}
+</body>
+
+</html>

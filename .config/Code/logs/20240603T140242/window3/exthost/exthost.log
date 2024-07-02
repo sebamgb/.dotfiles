@@ -1,0 +1,13 @@
+2024-06-03 14:03:34.182 [info] Extension host with pid 5496 started
+2024-06-03 14:03:45.594 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-03 14:03:48.412 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-03 14:03:48.432 [info] ExtensionService#_doActivateExtension akmittal.hugofy, startup: true, activationEvent: '*'
+2024-06-03 14:03:48.619 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-06-03 14:03:49.004 [info] ExtensionService#_doActivateExtension ckolkman.vscode-postgres, startup: true, activationEvent: '*'
+2024-06-03 14:03:51.553 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2024-06-03 14:03:51.574 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-06-03 14:03:51.650 [info] ExtensionService#_doActivateExtension mtxr.sqltools, startup: true, activationEvent: '*'
+2024-06-03 14:03:52.233 [info] ExtensionService#_doActivateExtension rusnasonov.vscode-hugo, startup: true, activationEvent: '*'
+2024-06-03 14:03:52.499 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2024-06-03 14:03:54.211 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-03 14:03:54.325 [info] Extension host with pid 5496 exiting with code 0

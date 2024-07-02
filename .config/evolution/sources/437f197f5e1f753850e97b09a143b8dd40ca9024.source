@@ -1,0 +1,24 @@
+[Data Source]
+DisplayName=sebamgb@gmail.com
+Enabled=true
+Parent=
+
+[Authentication]
+Host=
+Method=Google
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=sebamgb@gmail.com
+CredentialName=
+IsExternal=false
+
+[Collection]
+BackendName=google
+CalendarEnabled=true
+ContactsEnabled=true
+Identity=sebamgb@gmail.com
+MailEnabled=true
+AllowSourcesRename=false
+CalendarUrl=
+ContactsUrl=

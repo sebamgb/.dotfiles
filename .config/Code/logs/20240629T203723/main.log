@@ -1,0 +1,23 @@
+2024-06-29 20:37:23.895 [info] update#setState idle
+2024-06-29 20:37:36.816 [error] Error: Error while decrypting the ciphertext provided to safeStorage.decryptString.
+    at I.decrypt (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:61:8747)
+    at Object.call (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:44:5310)
+    at P.s (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:42:5444)
+    at P.q (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:42:4899)
+    at v.value (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:42:4208)
+    at s.y (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:37:682)
+    at s.z (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:37:757)
+    at s.fire (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:37:976)
+    at v.value (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:33:29202)
+    at s.y (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:37:682)
+    at s.fire (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:37:905)
+    at v.value (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:33:29405)
+    at s.y (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:37:682)
+    at s.fire (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:37:905)
+    at $e (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:33:31818)
+    at IpcMainImpl.c (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:44:19580)
+    at IpcMainImpl.emit (node:events:514:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:78003)
+    at WebContents.emit (node:events:514:28)
+2024-06-29 20:37:53.912 [info] update#setState checking for updates
+2024-06-29 20:37:54.288 [info] update#setState idle

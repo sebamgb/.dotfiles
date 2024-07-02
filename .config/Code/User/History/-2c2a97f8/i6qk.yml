@@ -1,0 +1,105 @@
+slogan: La del logo del perrito
+# theme icons
+theme:
+  - name: light
+    title: Tema claro
+    src: icons/themes/sun-fill.svg
+    active: false
+    id: sun-fill
+  - name: dark
+    title: Tema oscuro
+    src: icons/themes/moon-stars-fill.svg
+    active: false
+    id: moon-stars-fill
+  - name: auto
+    title: Tema preferido
+    src: icons/themes/circle-half.svg
+    active: true
+    id: circle-half
+# https://schema.org/Organization
+## JSON-LD
+schemaType:
+  "Organization"
+  # schemaType: "Person"
+contact:
+  # https://schema.org/PostalAddress
+  address:
+    # first record is for schema
+    - name: Address
+      streetAddress:
+        - J E Lira 43
+      addressLocality: Caupolican
+      addressRegion: Viña del mar
+      postalCode: 2550713
+      addressCountry: Chile
+      # hasMap
+      url: https://maps.app.goo.gl/8wFmcLv494RtmwtA8
+      geo: #coordinates
+      icon: icons/geo-alt.svg
+      # icon: "#geo-alt"
+      disable: false
+  # postal address is just for contact details display
+  # servicePostalAddress:
+  #   postOfficeBoxNumber:
+  #   addressLocality: Pyrmont
+  #   addressRegion: NSW
+  #   postalCode: 2009
+  #   addressCountry: Australia
+
+  openingHours:
+    - name: Horarios
+      icon: icons/clock.svg
+      # icon: bi bi-clock
+      hours:
+        # date is ignored for display and schema
+        - day: Horarios de atención
+          custom: Solo agendados
+        - day: Lunes a Sabado
+          open: 2021-01-01T11:15:00
+          close: 2021-01-01T19:00:00
+        - day: Domingo
+          custom: Cerrado
+  telephone:
+    # first record appears in schema data
+    - name: Phone
+      text:
+        - (09) 4407 5388 
+        - (09) 7544 0757
+      url:
+        - "tel:+56944075388"
+        - "tel:+56975440757"
+      icon: icons/phone.svg
+      # icon: bi bi-phone
+      disable: false
+  # mobile
+  # - text:
+  #   url:
+  #   icon: icons/bootstrap/telephone
+  #   disable: false
+  email:
+    - name: Email
+      text: contacto@clinicaveterinariamovil.cl
+      url: "mailto:test@domain.com"
+      icon: icons/envelope.svg
+      # icon: bi bi-envelope
+      disable: false
+      desc: Email Address
+  # only for contact details display
+  extraItem:
+    - name: Help Desk
+      text: Help Desk
+      url: helpdesk.com
+      icon:
+      disable: true
+social: 
+  whatsapp:
+    number:
+      - +56 9 4407 5388
+      - +56 9 7544 0757
+    disable: false
+    url: https://api.whatsapp.com/send?l=es&type=phone_number&phone=
+    icon: icons/whatsapp.svg
+# founder:
+# foundingDate:
+# foundingLocation:
+logo: images/LOGO.png

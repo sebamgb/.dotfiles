@@ -1,0 +1,158 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+$transition-time: .8;
+
+body {
+
+    [data-animation="fade"] {
+        visibility: hidden;
+        transform: translate(100%);
+        transition: #{$transition-time}s ease-in #{$transition-time/2}s;
+
+        --transform: translate(0);
+    }
+
+    [data-animation="show"] {
+        visibility: hidden;
+        transform: scale(0);
+        transition: #{$transition-time}s ease-in #{$transition-time/2}s;
+
+        --transform: scale(1);
+    }
+
+    [data-animation="up"] {
+        visibility: hidden;
+        transform: translateY(100%);
+        transition: #{$transition-time}s ease-in #{$transition-time/2}s;
+
+        --transform: translateY(0);
+    }
+
+    [data-animation] {
+        &.active {
+            visibility: visible;
+            transform: var(--transform);
+        }
+    }
+
+    .icon-link-left {
+        --bs-icon-link-transform: translate3d(0, -.125rem, 0);
+    }
+
+    .fs-sm {
+        font-size: small;
+    }
+
+    header {
+        box-shadow: var(--bs-box-shadow);
+
+        .navbar {
+            padding: 0;
+
+            .navbar-toggler {
+                border: none;
+                color: var(--bs-border-color-translucent);
+                padding: 1px;
+            }
+
+            .brand {
+                background-color: var(--bs-body-bg);
+                width: 100%;
+                position: relative;
+                background-image: url("/stock-vector-vector-linear-seamless-pattern-hand-drawn-doodle-design-concept-for-pet-shops-or-veterinary-1789478624.jpg");
+                background-size: cover;
+                background-blend-mode: ;
+                background-repeat: no-repeat;
+                &::after{
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    background-image: linear-gradient(to top, var(--bs-body-bg), transparent);
+                }
+            }
+        }
+    }
+
+    main {
+        overflow: hidden;
+
+        video {
+            width: inherit;
+        }
+
+        .not-found {
+            h1 {
+                font-size: 5rem;
+            }
+        }
+
+        article {
+            .card {
+                .img-top-container {
+                    height: 200px;
+                    overflow: hidden;
+                }
+
+                .red-arrow {
+                    fill: var(--bs-danger);
+                    width: 1.5em;
+                    height: 1.5em;
+                }
+            }
+
+            main {
+
+                ul,
+                ol {
+                    --bs-list-group-border-color: currentColor;
+                }
+            }
+        }
+
+        #up {
+            width: 3em;
+            height: 3em;
+            bottom: 0;
+            right: 0;
+            overflow: hidden;
+
+            a {
+                svg {
+                    fill: currentColor;
+                    height: 2em;
+                    width: 2em;
+                }
+            }
+        }
+
+        #donate-button {
+            background-color: var(--btn-paypal-color);
+            text-align: center;
+            border-radius: 6.25rem;
+            min-height: 1.625rem;
+            box-shadow: inset 0 2px 0 0 hsla(0, 0%, 100%, .41);
+            border: 1px solid var(--btn-paypal-border-color);
+            color: var(--bs-black);
+            font-family: Helvetica, sans-serif;
+            font-size: .875rem;
+            font-weight: 700;
+            padding: 0 1rem;
+            min-width: 7.5rem;
+            margin-bottom: 0;
+            line-height: 1.5rem;
+            text-decoration: none;
+            text-transform: none;
+        }
+
+        .line-dotted {
+            border-top-width: .1em;
+            border-top-style: dashed;
+            border-top-color: inherit;
+        }
+
+    }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js" dir="ltr" data-bs-theme="auto">
+
+<head>
+  {{- partial "head" . -}}
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z9L8C8M" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <header>
+    {{- partial "header" . -}}
+  </header>
+  <main>
+    {{- block "main" . -}}{{- end -}}
+  </main>
+  <footer>
+    {{- partial "footer" . -}}
+  </footer>
+  {{- block "cookie" . -}}{{- end -}}
+  {{- partial "scriptFooter" . -}}
+</body>
+
+</html>

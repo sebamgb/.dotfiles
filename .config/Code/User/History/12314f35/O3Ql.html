@@ -1,0 +1,140 @@
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+<nav class="navbar bg-body" aria-label="Main navigation">
+    <div class="container-fluid brand d-flex flex-column">
+        {{- partial "inline/navbar-brand/brand.html" (dict "page" $page) -}}
+    </div>
+    <div class="container-fluid py-1">
+        <div class="container d-flex justify-content-between">
+            <div class="nav-item dropdown">
+                <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+                    id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static"
+                    aria-label="Toggle theme (auto)">
+                    <div class="d-flex align-items-center my-1 theme-icon-active">
+                        {{- range site.Params.theme -}}
+                        {{- if .active -}}
+                        {{- partial "blocks/svg-font" (dict "src" .src "em" 1) -}}
+                        {{- end -}}
+                        {{- end -}}
+                    </div>
+                    <span class="ms-3" id="bd-theme-text">{{- i18n "toggle-theme" -}}</span>
+                </button>
+                {{- partial "inline/navbar-item/menu/dropdown-ul.html" (dict "page" $page "em" 1) -}}
+            </div>
+            {{- partial "inline/navbar-item/menu/menu-toggler.html" (dict "wrapperClass" "order-first" "buttonClass"
+            "navbar-toggler rounded-circle" "text" (i18n "toggler")) -}}
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1"
+                id="navbarSupportedContent" aria-labelledby="offcanvasWithBothOptionsLabel">
+                {{- partial "inline/menu/offcanvas/header.html" (dict "class" "offcanvas-header" "titleClass"
+                "offcanvas-title" "title" site.Title "btnClass" "btn-close") -}}
+                <div class="offcanvas-body">
+                    {{- with index site.Menus $menuID -}}
+                    <ul class="navbar-nav mb-2">
+                        {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) -}}
+                    </ul>
+                    {{- end -}}
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+{{- define "partials/inline/menu/offcanvas/header.html" -}}
+<div class="{{ .class }}">
+    <h5 class="{{ .titleClass }}" id="offcanvasWithBothOptionsLabel">{{- .title -}}</h5>
+    <button type="button" class="{{ .btnClass }}" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+{{- end -}}
+{{- define "partials/inline/navbar-item/menu/menu-toggler.html" -}}
+<div class="{{ .wrapperClass }}">
+    <button class="{{ .buttonClass }}" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent"
+        aria-controls="offcanvasWithBothOptions" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <small>
+        {{- .text -}}
+    </small>
+</div>
+{{- end -}}
+{{- define "partials/inline/navbar-item/menu/dropdown-ul.html" -}}
+{{- $page := .page -}}
+{{- $em := .em -}}
+<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text">
+    {{- range $page.Site.Params.theme -}}
+    <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="{{ .name }}"
+            aria-pressed="{{- with .active -}}true{{- else -}}false{{- end -}}">
+            {{- with .src -}}
+            <div class="me-2 theme-icon opacity-50">
+                {{- partial "blocks/svg-font.html" (dict "src" . "em" $em) -}}
+            </div>
+            {{- end -}}
+            <span>
+                {{- .title -}}
+            </span>
+        </button>
+    </li>
+    {{- end -}}
+</ul>
+{{- end -}}
+{{- define "partials/inline/navbar-brand/brand.html" -}}
+{{- $page := .page -}}
+<div class="justify-self-center">
+    <a title="{{ i18n `home` }}" href="{{- relLangURL `` -}}">
+        {{- with $page.Site.Params.logo -}}
+        {{- partial "images" (dict "src" . "alt" "clinica veterinaria movil" "width" 100 "height" 110) -}}
+        {{- else -}}
+        <h1 class="h1">{{- $page.Site.Title -}}</h1>
+        {{- end -}}
+    </a>
+</div>
+<div class="justify-self-center">
+    <h3 class="m-0" style="font-size: small;">{{- site.Params.slogan -}}</h3>
+</div>
+{{- end -}}
+{{- define "partials/inline/menu/walk.html" -}}
+{{- $page := .page -}}
+{{- range .menuEntries -}}
+{{- $attrs := dict "href" .URL "class" "nav-link" -}}
+{{- if $page.IsMenuCurrent .Menu . -}}
+{{- $attrs = merge $attrs (dict "class" "nav-link active" "aria-current" "page") -}}
+{{- else if .HasChildren -}}
+{{- $attrs = merge $attrs (dict "class" "nav-link dropdown-toggle" "role" "button" "data-bs-toggle" "dropdown"
+"data-bs-auto-close" "outside"
+"aria-expanded"
+"false") -}}
+{{- end -}}
+<li class="nav-item{{- if .HasChildren }} dropdown{{- end -}}">
+    <a {{- range $k, $v :=$attrs -}} {{- with $v -}} {{- printf ` %s=%q` $k $v | safeHTMLAttr -}} {{- end -}} {{- end
+        -}}>{{-
+        or (T .Identifier) .Name | safeHTML -}}</a>
+    {{- with .Children -}}
+    <ul class="dropdown-menu" data-bs-theme="dark">
+        {{- partial "inline/submenu/walk.html" (dict "page" $page "menuEntries" .) -}}
+    </ul>
+    {{- end -}}
+</li>
+{{- end -}}
+{{- end -}}
+{{- define "partials/inline/submenu/walk.html" -}}
+{{- $page := .page -}}
+{{- range .menuEntries -}}
+{{- $attrs := dict "href" .URL "class" "dropdown-item" -}}
+{{- if $page.IsMenuCurrent .Menu . -}}
+{{- $attrs = merge $attrs (dict "class" "dropdown-item active" "aria-current" "page") -}}
+{{- else if .HasChildren -}}
+{{- $attrs = merge $attrs (dict "class" "dropdown-item dropdown-toggle" "role" "button" "data-bs-toggle" "dropdown"
+"aria-expanded"
+"false") -}}
+{{- end -}}
+<li class="{{- if .HasChildren -}}dropend{{- end -}}">
+    <a {{- range $k, $v :=$attrs -}} {{- with $v -}} {{- printf ` %s=%q` $k $v | safeHTMLAttr -}} {{- end -}} {{- end
+        -}}>{{-
+        or (T .Identifier) .Name | safeHTML -}}</a>
+    {{- with .Children -}}
+    <ul class="dropdown-menu">
+        {{- partial "inline/submenu/walk.html" (dict "page" $page "menuEntries" .) -}}
+    </ul>
+    {{- end -}}
+</li>
+{{- end -}}
+{{- end -}}

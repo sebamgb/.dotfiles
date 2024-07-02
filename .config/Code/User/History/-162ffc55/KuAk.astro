@@ -1,0 +1,112 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content'
+import BlogPost from '@/layouts/BlogPost'
+import Code from '@/components/mdx/Code'
+import ListRelatedPosts from '@/components/ListRelatedPosts'
+import Share from '@/components/Share'
+import TableOfContents from '@/components/TableOfContents'
+import { getPosts } from '@/utils'
+import SButton from '@/components/mdx/SButton'
+import Disqus from '@/components/Disqus'
+import { disqusConfig } from '@/data/disqus.config'
+
+const posts = await getCollection('blog')
+export async function getStaticPaths() {
+	const posts = await getPosts()
+
+	return posts.map((post) => ({
+		params: { slug: post.slug },
+		props: post
+	}))
+}
+type Props = CollectionEntry<'blog'>
+
+const post = Astro.props
+const MAX_POSTS = 3
+const getRelatedPosts = (post: Props) => {
+	const lowercaseTags = post.data.tags.map((tag) => tag.toLowerCase())
+	const relatedPosts = posts.filter(
+		(p) => p.slug !== post.slug && p.data.tags.some((t) => lowercaseTags.includes(t.toLowerCase()))
+	)
+	return relatedPosts.slice(0, MAX_POSTS)
+}
+
+const relatedPosts = getRelatedPosts(post)
+
+const { Content, headings, remarkPluginFrontmatter } = await post.render()
+
+const disqusEnabled = disqusConfig.enabled
+---
+
+<BlogPost
+	id={post.id}
+	data={post.data}
+	headings={headings}
+	readTime={remarkPluginFrontmatter.minutesRead}
+>
+	<div class='grid grid-cols-1 md:grid-cols-[20%_auto] gap-10 mt-8'>
+		<!-- aside  -->
+		<aside id='sidebar' class='sidebar md:flex flex-col gap-8 hidden'>
+			<Share />
+			<div class='self-start hidden md:block transition-all duration-200'>
+				{headings && headings.length > 0 && <TableOfContents {headings} />}
+			</div>
+		</aside>
+
+		<!-- post -->
+		<article id='content' class='max-w-full w-full'>
+			<div class='prose prose-lg md:prose-xl dark:prose-invert mb-12 min-w-full'>
+				<Content components={{ pre: Code, SButton }} />
+			</div>
+
+			<!-- related posts -->
+			<footer>
+				<h2 class='font-bold text-lg dark:text-white mb-6'>Related Posts</h2>
+				<ListRelatedPosts posts={relatedPosts} />
+			</footer>
+		</article>
+		<script is='inline'>
+			window.addEventListener('scroll', function () {
+				var sidebar = document.getElementById('sidebar')
+				var content = document.getElementById('content')
+				var sidebarHeight = sidebar.offsetHeight
+				var contentHeight = content.offsetHeight
+				var scrollTop = window.scrollY || document.documentElement.scrollTop
+
+				var stickyStart = sidebar.offsetTop
+				var stickyEnd = contentHeight - sidebarHeight
+
+				if (scrollTop > stickyStart && scrollTop < stickyEnd) {
+					sidebar.classList.add('fixe')
+					sidebar.style.top = '0'
+				} else if (scrollTop >= stickyEnd) {
+					sidebar.classList.remove('fixe')
+					sidebar.style.position = 'absolute'
+					sidebar.style.top = stickyEnd + 'px'
+				} else {
+					sidebar.classList.remove('fixe')
+					sidebar.style.top = 'initial'
+				}
+			})
+		</script>
+	</div>
+	<style>
+		.sidebar {
+			height: auto;
+		}
+
+		.fixe {
+			position: fixed;
+			top: 0;
+			max-height: 100vh;
+			overflow-y: auto;
+		}
+
+		.bottom {
+			position: absolute;
+			bottom: 0;
+		}
+	</style>
+
+	{disqusEnabled && <Disqus />}
+</BlogPost>
